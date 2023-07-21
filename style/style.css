@@ -433,8 +433,7 @@ i {
   display: none;
 }
 .commentary .commentary-card {
-  display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
   flex-direction: column;
   background-color: #f3f3f3;
   padding: 2.4rem;
@@ -469,6 +468,10 @@ i {
   .commentary {
     display: flex;
     flex-direction: column;
+  }
+  .commentary .commentary-card {
+    display: flex;
+    justify-content: space-between;
   }
   .commentary .cards {
     display: flex;

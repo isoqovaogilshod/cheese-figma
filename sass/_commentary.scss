@@ -4,8 +4,7 @@
     display: none;
   }
   .commentary-card {
-    display: flex;
-    justify-content: space-between;
+    margin: 0 auto;
     flex-direction: column;
     background-color: #f3f3f3;
     padding: 2.4rem;
@@ -45,6 +44,11 @@
   .commentary {
     display: flex;
     flex-direction: column;
+
+    .commentary-card{
+      display: flex;
+      justify-content: space-between;
+    }
     .cards {
       display: flex;
       column-gap: 7rem;
