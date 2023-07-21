@@ -299,6 +299,16 @@ i {
     max-width: 27rem;
   }
 }
+@media screen and (min-width: 1340px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .info .info-part {
+    display: flex;
+    column-gap: 10.1rem;
+  }
+}
 .working {
   display: flex;
   flex-direction: column;
