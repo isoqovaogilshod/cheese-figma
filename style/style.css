@@ -469,6 +469,9 @@ i {
     display: flex;
     flex-direction: column;
   }
+  .commentary .commentary-card {
+    justify-content: space-between;
+  }
   .commentary .cards {
     display: flex;
     column-gap: 7rem;
