@@ -37,7 +37,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 2.15rem 3.2rem;
-  background-color: #ffcf23;
 }
 
 .none {
@@ -88,7 +87,10 @@ i {
   margin: 0 auto;
   margin-top: 2.1rem;
 }
-.hero .btn_p p {
+.hero .btn_p .none-computer {
+  display: none;
+}
+.hero .btn_p .none-mobile {
   font-size: 1.6rem;
   font-weight: 600;
   text-align: center;
@@ -128,7 +130,7 @@ i {
     margin: auto;
     margin-top: 40px;
   }
-  .hero .btn_p p {
+  .hero .btn_p .none-mobile {
     margin-left: 1rem;
     font-weight: 300;
     max-width: 36.6rem;
@@ -210,8 +212,16 @@ i {
     column-gap: 3rem;
     align-items: center;
   }
-  .hero .btn_p p {
+  .hero .btn_p {
+    max-width: 58rem;
+  }
+  .hero .btn_p .none-mobile {
+    display: none;
+  }
+  .hero .btn_p .none-computer {
+    display: flex;
     text-align: left;
+    max-width: 52rem;
     font-weight: 100;
     margin-left: -9rem;
   }
@@ -375,7 +385,7 @@ i {
   .working .working-texts {
     display: flex;
     margin-top: 6.4rem;
-    column-gap: 12rem;
+    column-gap: 10.3rem;
   }
   .working .working-texts h3 {
     text-align: left;
@@ -398,6 +408,7 @@ i {
     display: none;
   }
   .working .none-mobile {
+    margin-left: -7rem;
     display: flex;
   }
   .working .working-img .none-1024px {
@@ -423,6 +434,9 @@ i {
   display: none;
 }
 .commentary .commentary-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   background-color: #f3f3f3;
   padding: 2.4rem;
   margin-top: 3rem;
@@ -530,6 +544,16 @@ i {
   .sign_up h2 {
     font-weight: 500;
     max-width: 50rem;
+  }
+}
+@media screen and (min-width: 1340px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .sign_up h2 {
+    font-size: 4rem;
+    max-width: 60rem;
   }
 }
 footer {

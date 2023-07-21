@@ -104,7 +104,7 @@
     .working-texts {
       display: flex;
       margin-top: 6.4rem;
-      column-gap: 12rem;
+      column-gap: 10.3rem;
       h3 {
         text-align: left;
         max-width: 45rem;
@@ -122,14 +122,15 @@
     max-width: 1140px;
     margin: 0 auto;
   }
-
+  
   .working{
     padding: 5rem 0;
     .none-tablet{
       display: none;
     }
-
+    
     .none-mobile{
+      margin-left: -7rem;
       display: flex;
     }
     .working-img{

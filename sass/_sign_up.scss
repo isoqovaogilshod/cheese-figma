@@ -53,10 +53,23 @@
     margin: 0 auto;
   }
 
-  .sign_up{
-    h2{
+  .sign_up {
+    h2 {
       font-weight: 500;
       max-width: 50rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1340px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .sign_up{
+    h2{
+      font-size: 4rem;
+      max-width: 60rem;
     }
   }
 }

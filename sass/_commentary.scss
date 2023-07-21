@@ -4,6 +4,9 @@
     display: none;
   }
   .commentary-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: #f3f3f3;
     padding: 2.4rem;
     margin-top: 3rem;
