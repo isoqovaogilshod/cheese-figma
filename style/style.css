@@ -469,10 +469,6 @@ i {
     display: flex;
     flex-direction: column;
   }
-  .commentary .commentary-card {
-    display: flex;
-    justify-content: space-between;
-  }
   .commentary .cards {
     display: flex;
     column-gap: 7rem;
@@ -488,6 +484,10 @@ i {
   .container {
     max-width: 960px;
     margin: 0 auto;
+  }
+  .commentary .commentary-card {
+    display: flex;
+    justify-content: space-between;
   }
   .commentary .none_2 {
     display: flex;
