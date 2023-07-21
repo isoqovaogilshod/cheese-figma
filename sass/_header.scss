@@ -104,7 +104,6 @@ nav {
       display: flex;
       align-items: center;
       flex-direction: row;
-      column-gap: 2rem;
       margin: auto;
       margin-top: 40px;
       .none-mobile{
@@ -212,16 +211,20 @@ nav {
     column-gap: 3rem;
     align-items: center;
     .btn_p{
-      max-width: 58rem;
+
+      button{
+        margin-left: 9rem;
+      }
       .none-mobile{
         display: none;
+        
       }
       .none-computer{
         display: flex;
         text-align: left;
         max-width:52rem;
         font-weight: 100;
-        margin-left: -9rem;
+        font-size: 1.8rem;
       }
     }
     .hero-img {

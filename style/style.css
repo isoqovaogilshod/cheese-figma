@@ -126,7 +126,6 @@ i {
     display: flex;
     align-items: center;
     flex-direction: row;
-    column-gap: 2rem;
     margin: auto;
     margin-top: 40px;
   }
@@ -212,8 +211,8 @@ i {
     column-gap: 3rem;
     align-items: center;
   }
-  .hero .btn_p {
-    max-width: 58rem;
+  .hero .btn_p button {
+    margin-left: 9rem;
   }
   .hero .btn_p .none-mobile {
     display: none;
@@ -223,7 +222,7 @@ i {
     text-align: left;
     max-width: 52rem;
     font-weight: 100;
-    margin-left: -9rem;
+    font-size: 1.8rem;
   }
   .hero .hero-img .none-mobile {
     display: flex;
