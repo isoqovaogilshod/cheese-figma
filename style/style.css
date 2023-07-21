@@ -221,7 +221,7 @@ i {
     display: flex;
     text-align: left;
     max-width: 52rem;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.8rem;
   }
   .hero .hero-img .none-mobile {
@@ -407,7 +407,7 @@ i {
     display: none;
   }
   .working .none-mobile {
-    margin-left: -7rem;
+    margin-left: -5rem;
     display: flex;
   }
   .working .working-img .none-1024px {
