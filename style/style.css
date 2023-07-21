@@ -290,7 +290,7 @@ i {
     display: flex;
     flex-direction: row;
     padding: 3.9rem 0;
-    column-gap: 10.1rem;
+    column-gap: 5.1rem;
   }
   .info .info-icon-item {
     margin-right: 8rem;
@@ -474,7 +474,6 @@ i {
   }
   .commentary .cards {
     display: flex;
-    column-gap: 7rem;
     justify-content: center;
   }
   .commentary .cards .none_1 {
